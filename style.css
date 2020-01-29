@@ -1,0 +1,80 @@
+
+
+body{
+	background: white;
+	color: #1c6e8c;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	text-rendering: antialiased !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+h1{
+	font-family: Courier;
+	color: #605856;
+	font-weight: bold;
+	font-size: 80px;
+}
+
+h2{
+	font-family: Courier;
+	color: #1c6e8c;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+a{
+	color: ##bfd7b5;
+	text-decoration: none;
+}
+a:hover{
+	color: #e06c9f;
+}
+
+#banner{
+	text-align: center;
+	background-image: url(images/banner.jpg);
+	background-size: cover;
+	padding: 150px;
+	color: white;
+	text-shadow: 1px 1px 5px black;
+	margin: 0;
+}
+
+#banner h1{
+	color: white;
+	font-size: 50px;
+}
+
+#banner p{
+	color: white;
+	opacity: 0.8;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+#footer{
+	padding: 30px;
+	background: rgb(30, 30, 30);
+	color: lightgrey;
+	text-align: center;
+}
+
+#footer a{
+	font-size: 20px;
+	color: grey;
+}
+
+#footer a:hover{
+	color: white;
+}
+
+.card{
+	padding: 50px;
+	text-align: center;
+	font-weight: lighter;
+	align-items: center;
+	background-color: white;
+	border: none;
+}
+
